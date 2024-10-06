@@ -1,0 +1,107 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.5s ease;
+  }
+
+.heroContents {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: 100px;
+    margin-right: 100px;
+    gap: 20px;
+  }
+  
+  .accelerationStation {
+    height: 600px;
+    width: auto;
+  }
+  
+  .heroHeadings {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    flex-wrap: wrap;
+    text-align: left;
+    align-items: left;
+    flex: 1;
+  }
+  
+  .heroHeading {
+    font-family: "Montserrat-ExtraBold";
+    color: #ffa325;
+    font-size: 60px;
+  }
+  
+  .heroSubHeading {
+    font-family: "Poppins-Regular";
+    color: #FFFFFF;
+    font-size: 17px;
+  }
+  
+  .aboutMeContents {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 200px;
+    gap: 20px;
+    margin-bottom: 200px;
+  }
+  
+  .steps {
+    height: 600px;
+    width: auto;
+    background-color:#000000;
+    border-radius: 30px;
+  }
+  
+  .aboutMeHeading {
+    font-family: "Montserrat-ExtraBold";
+    color: #ffa325;
+    font-size: 47px;
+  }
+  
+  .aboutMeSubHeading {
+    font-family: "Poppins-Regular";
+    color: #FFFFFF;
+    font-size: 15px;
+  }
+
+  .tool {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: "Montserrat-Medium";
+    color: #ffa325;
+    font-size: 30px;
+  }
+
+ #tryMe:hover {
+    color: #ff5900;
+  }
+
+
+  #tryMe2 {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+    padding: 10px;
+    cursor: pointer;
+    white-space: nowrap;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 1.2rem;
+    width: fit-content;
+    background-color: #ffa325;
+    font-family: "Poppins-Regular";
+    margin-top: 20px;
+    border-radius: 10px;
+    
+  }

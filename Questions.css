@@ -1,0 +1,242 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  transition: background-color 0.5s ease;
+}
+
+body {
+  margin: 0px;
+  padding: 2px;
+  width: 100%;
+  height: auto;
+  background-image: radial-gradient(circle at bottom, #294866 50%, #0d0d0f 70%);
+}
+
+.questionContents {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 100px;
+  }
+
+  
+  .actualQuestionContents {
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    max-width: 100%;
+  }
+  
+  .questionHeading {
+    margin-top: 100px;
+    font-family: "Montserrat-ExtraBold";
+    color: #ffa325;
+    font-size: 47px;
+    margin-bottom: 10px;
+  
+  }
+
+  .questionSubHeading {
+    margin-top: 10px;
+    font-family: "Poppins-Regular";
+    color: #FFFFFF;
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .questionSection {
+    background-color: #ffa325;
+    color: #FFFFFF;
+    font-family: "Montserrat-Bold";
+    font-size: 30px;
+    padding: 10px;
+    margin-bottom: 10px;
+    word-wrap: break-word;
+    flex: 1; 
+    border-radius: 10px;
+  }
+  
+  .question {
+    color: #FFFFFF;
+    font-size: 25px;
+    font-family: "Montserrat-Medium";
+    margin-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .thisHandHatesReact {
+    
+    height: 600px;
+    width: auto;
+  }
+  
+  .answerSection {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 1;
+    padding: 10px; 
+    background-color: #ffffff; 
+    border-radius: 10px;
+  }
+  
+  .answer {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #ffffff;
+    color: #0d0d0f;
+    font-size: 15px;
+    font-family: "Poppins-Regular";
+    padding: 10px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    max-height: 100%; 
+    
+  
+  }
+  
+  textarea {
+    width: 100%;
+    resize: none; 
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 10px; 
+    font-family: "Poppins-Regular"; 
+    font-size: 15px; 
+    color: #0d0d0f;
+  }
+  
+  #answerMe {
+    background-color: #ffa325;
+    color: #ffffff;
+    padding: 10px;
+    font-size: 15px;
+    font-family: "Poppins-Regular";
+    cursor: pointer; 
+    border: none;
+    border-radius: 10px; 
+    text-align: center;
+    transition: background-color 0.3s;
+    border-radius: 10px;
+    
+  }
+  
+  #answerMe:hover {
+    background-color: #ff5900; 
+  }
+  
+  .contentContainer {
+    display: flex; 
+    flex-direction: column;
+    align-items: stretch; 
+    width: 100%;
+  }
+
+  .wholeInterface {
+    margin-top: 300px;
+    /* border: solid red 1px; */
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    width: 100%;
+    height: 700px;
+    margin-bottom: 100px;
+    justify-content: center;
+
+  }
+
+  .shopInterface {
+    /* border: solid red 1px; */
+    background-color: #20293c;
+    width: 60%;
+    border-radius: 10px;
+    padding: 30px;
+    
+    display: flex;
+    flex-direction: column;
+    
+
+
+  }
+
+
+  .search {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+     
+      padding: 10px; 
+      background-color: #ffffff; 
+      border-radius: 10px;
+      width: 100%;
+      height: 150px;
+  
+  }
+
+  #searchMe {
+    background-color: #ffa325;
+    color: #ffffff;
+    padding: 10px;
+    font-size: 15px;
+    font-family: "Poppins-Regular";
+    cursor: pointer; 
+    border: none;
+    border-radius: 10px; 
+    text-align: center;
+    transition: background-color 0.3s;
+    border-radius: 10px;
+
+    width: fit-content;
+    height: fit-content;
+    
+  }
+  
+  .shopWindow {
+    background-color: #FFFFFF;
+    height: 30%;
+    width: 30%;
+    gap: 30px;
+    border-radius: 10px;
+
+  }
+
+  .closerPeak {
+    /* border: solid red 1px; */
+    width: 30%;
+    height: auto;
+    padding: 30px;
+    background-color: #20293c;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .closerPeakTitle {
+    font-size: 25px;
+    font-family: "Poppins-Regular";
+    color: #FFFFFF;
+
+  }
+
+  .bigWindow {
+
+    /* border: solid red 1px; */
+    width: 100%;
+    height: 40%;
+    
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    /* background-image: ; */
+
+  }
+
+  /*these 3d icons lowkey look like juicy yummy gummies */
+
+
+  

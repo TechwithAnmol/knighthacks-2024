@@ -1,0 +1,258 @@
+/* idk what the fuck is going on so like all my problems in life, i'm ignoring it. */
+/* i will convert this to react later */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  transition: background-color 0.5s ease;
+}
+
+@font-face {
+  font-family: "Montserrat-ExtraBold";
+  src: local("Montserrat-ExtraBold"), url("./assets/fonts/Montserrat-ExtraBold.ttf");
+}
+
+@font-face {
+  font-family: "Poppins-Regular";
+  src: local("Poppins-Regular"), url("./assets/fonts/Poppins-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Poppins-Bold";
+  src: local("Poppins-Bold"), url("./assets/fonts/Poppins-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Montserrat-Bold";
+  src: local("Montserrat-Bold"), url("./assets/fonts/Montserrat-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Montserrat-Medium";
+  src: local("Montserrat-Medium"), url("./assets/fonts/Montserrat-Medium.ttf");
+}
+
+/* body {
+  margin: 0px;
+  padding: 2px;
+  width: 100%;
+  height: auto;
+  background-image: radial-gradient(circle at bottom, #294866 50%, #0d0d0f 90%);
+} */
+/* 
+.bar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  position: sticky;
+  justify-content: left;
+  background-color: #0d0d0f;
+  height: 70px;
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 0 20px;
+}
+
+.appName a, .appName a:hover, .appName a:visited {
+  font-size: 1.7rem;
+  color: #ffa325;
+  font-family: "Montserrat-ExtraBold";
+  text-decoration: none;
+}
+
+.appIcon {
+  height: 110%;
+  width: auto;
+} */
+
+
+
+
+/* 
+.appName a:hover, #tryMe:hover {
+  color: #ff5900;
+} */
+
+
+/* 
+.heroContents {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-left: 100px;
+  margin-right: 100px;
+  gap: 20px;
+}
+
+.accelerationStation {
+  height: 600px;
+  width: auto;
+}
+
+.heroHeadings {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  flex-wrap: wrap;
+  text-align: left;
+  align-items: left;
+  flex: 1;
+}
+
+.heroHeading {
+  font-family: "Montserrat-ExtraBold";
+  color: #ffa325;
+  font-size: 60px;
+}
+
+.heroSubHeading {
+  font-family: "Poppins-Regular";
+  color: #FFFFFF;
+  font-size: 17px;
+}
+
+.aboutMeContents {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 200px;
+  gap: 20px;
+  margin-bottom: 300px;
+}
+
+.steps {
+  height: 600px;
+  width: auto;
+  background-color:#000000;
+}
+
+.aboutMeHeading {
+  font-family: "Montserrat-ExtraBold";
+  color: #ffa325;
+  font-size: 47px;
+}
+
+.aboutMeSubHeading {
+  font-family: "Poppins-Regular";
+  color: #FFFFFF;
+  font-size: 15px;
+} */
+/* 
+.questionContents {
+  display: flex;
+  flex-direction: row;
+  align-items: top;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 700px;
+}
+
+.actualQuestionContents {
+  flex-direction: column;
+  align-items: left;
+  justify-content: left;
+  max-width: 100%;
+}
+
+.questionHeading {
+  margin-top: 100px;
+  font-family: "Montserrat-ExtraBold";
+  color: #ffa325;
+  font-size: 47px;
+  margin-bottom: 10px;
+
+}
+
+.questionSection {
+  background-color: #ffa325;
+  color: #FFFFFF;
+  font-family: "Montserrat-Bold";
+  font-size: 30px;
+  padding: 10px;
+  margin-bottom: 10px;
+  word-wrap: break-word;
+  flex: 1; 
+  border-radius: 15px;
+}
+
+.question {
+  color: #FFFFFF;
+  font-size: 25px;
+  font-family: "Montserrat-Medium";
+  margin-bottom: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.thisHandHatesReact {
+  height: 475px;
+  width: auto;
+}
+
+.answerSection {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex: 1;
+  padding: 10px; 
+  background-color: #ffffff; 
+  border-radius: 15px;
+}
+
+.answer {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #ffffff;
+  color: #0d0d0f;
+  font-size: 15px;
+  font-family: "Poppins-Regular";
+  padding: 10px;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  max-height: 100%; 
+  
+
+}
+
+textarea {
+  width: 100%;
+  resize: none; 
+  padding: 10px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  font-family: "Poppins-Regular"; 
+  font-size: 15px; 
+  color: #0d0d0f;
+}
+
+#answerMe {
+  background-color: #ffa325;
+  color: #ffffff;
+  padding: 10px;
+  font-size: 15px;
+  font-family: "Poppins-Regular";
+  cursor: pointer; 
+  border: none;
+  border-radius: 4px; 
+  text-align: center;
+  transition: background-color 0.3s;
+  border-radius: 15px;
+  
+}
+
+#answerMe:hover {
+  background-color: #ff5900; 
+}
+
+.contentContainer {
+  display: flex; 
+  flex-direction: column;
+  align-items: stretch; 
+  width: 100%;
+} */

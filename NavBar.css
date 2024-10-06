@@ -1,0 +1,79 @@
+
+.bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    position: sticky;
+    justify-content: left;
+    background-color: #0d0d0f;
+    height: 70px;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 0 20px;
+
+  }
+
+  .rbar {
+
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    gap: 25px;
+
+  }
+  
+  .appName a, .appName a:hover, .appName a:visited {
+    font-size: 1.7rem;
+    color: #ffa325;
+    font-family: "Montserrat-ExtraBold";
+    text-decoration: none;
+  }
+  
+  .appIcon {
+    height: 170%;
+    width: auto;
+  }
+
+  
+.appName a:hover, #tryMe:hover {
+    color: #ff5900;
+  }
+
+
+  #tryMe {
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    text-align: right;
+    margin-left:auto;
+    cursor: pointer;
+    white-space: nowrap;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #FFFFFF;
+    font-family: "Poppins-Regular";
+  }
+
+  #tryMe2 {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+    padding: 10px;
+    cursor: pointer;
+    white-space: nowrap;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 1.2rem;
+    width: fit-content;
+    background-color: #ffa325;
+    font-family: "Poppins-Regular";
+    margin-top: 20px;
+    border-radius: 10px;
+    
+  }
+
+  #tryMe2:hover {
+    background-color: #ff5900;
+  }
